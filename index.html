@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNA SHIK - ביטוחים ופיננסים</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="INNA SHIK - ביטוחים ופיננסים">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">אודות</a></li>
+                <li><a href="#services">שירותים</a></li>
+                <li><a href="#contact">צור קשר</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>ברוכים הבאים ל-INNA SHIK</h1>
+        <p>המומחים שלך לביטוחים ופיננסים</p>
+        <a href="#contact" class="cta-button">צור קשר</a>
+    </section>
+
+    <section id="about">
+        <h2>אודות</h2>
+        <p>INNA SHIK מתמחה במתן פתרונות ביטוח ופיננסים מותאמים אישית, עם דגש על מקצועיות ואמינות.</p>
+    </section>
+
+    <section id="services">
+        <h2>השירותים שלנו</h2>
+        <ul>
+            <li>
+                <h3>ביטוחי בריאות</h3>
+                <p>כיסוי מקיף לבריאותך ובני משפחתך.</p>
+            </li>
+            <li>
+                <h3>ביטוחי חיים</h3>
+                <p>הגנה פיננסית למשפחתך במקרה הצורך.</p>
+            </li>
+            <li>
+                <h3>ביטוחי רכב</h3>
+                <p>כיסוי מלא לרכבך, בכל מצב.</p>
+            </li>
+            <li>
+                <h3>ביטוחי דירות</h3>
+                <p>הגנה על הבית והנכסים שלך.</p>
+            </li>
+            <li>
+                <h3>ביטוחי עסקים</h3>
+                <p>פתרונות מותאמים לעסקים בכל הגדלים.</p>
+            </li>
+            <li>
+                <h3>ייעוץ פיננסי</h3>
+                <p>תכנון פיננסי מותאם אישית לעתיד בטוח.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>צור קשר</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">שם מלא:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">אימייל:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">הודעה:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">שלח</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 INNA SHIK - כל הזכויות שמורות</p>
+    </footer>
+</body>
+</html>
